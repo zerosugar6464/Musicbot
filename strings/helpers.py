@@ -1,155 +1,219 @@
-HELP_1 = """🙄**<u>ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</u>**
+#
+# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+#
+# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# and is released under the "GNU v3.0 License Agreement".
+# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+#
+# All rights reserved.
 
-ᴊᴜsᴛ ᴀᴅᴅ **ᴄ** ɪɴ ᴛʜᴇ sᴛᴀʀᴛɪɴɢ ᴏғ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴜsᴇ ᴛʜᴇᴍ ғᴏʀ ᴄʜᴀɴɴᴇʟ.
+HELP_1 = """
+**✶ EETİKET KOMUTLARI**
 
-/pause : ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
-/resume : ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ.
-/mute : ᴍᴜᴛᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
-/unmute : ᴜɴᴍᴜᴛᴇ ᴛʜᴇ ᴍᴜᴛᴇᴅ sᴛʀᴇᴀᴍ.
-/skip : sᴋɪᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ɴᴇxᴛ ᴛʀᴀᴄᴋ ɪɴ ǫᴜᴇᴜᴇ.
-/end ᴏʀ /stop : ᴄʟᴇᴀʀs ᴛʜᴇ ǫᴜᴇᴜᴇ ᴀɴᴅ ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
-/shuffle : sʜᴜғғʟᴇ ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs.
-/seek : sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
-/seekback : ʙᴀᴄᴋᴡᴀʀᴅ sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
-/reboot : ʀᴇʙᴏᴏᴛs ᴛʜᴇ ʙᴏᴛ ғᴏʀ ʏᴏᴜʀ ᴄʜᴀᴛ.
+🏷️ /tag - Tek tek etiketler.
 
-🥴<u>**ʟᴏᴏᴩ ᴩʟᴀʏ :**</u>
+🏷️ /utag - Çoklu etiketler.
 
-/loop [ᴅɪsᴀʙʟᴇ/ᴇɴᴀʙʟᴇ] ᴏʀ [ʙᴇᴛᴡᴇᴇɴ 1:10] 
-    : ᴡʜᴇɴ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ʙᴏᴛ ᴡɪʟʟ ᴩʟᴀʏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ɪɴ ʟᴏᴏᴩ ғᴏʀ 10 ᴛɪᴍᴇs ᴏʀ ᴛʜᴇ ɴᴜᴍʙᴇʀ ᴏғ ʀᴇǫᴜᴇsᴛᴇᴅ ʟᴏᴏᴩs.
+🏷️ /etag - Emoji ile etiketler.
 
-😜<u>**ᴀᴜᴛʜ ᴜsᴇʀs :**</u>
+🏷️ /igtag - iyi geceler mesajları ile etiketler.
 
-ᴀᴜᴛʜ ᴜsᴇʀs ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜᴏᴜᴛ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ᴄʜᴀᴛ.
+🏷️ /guntag - günaydın mesajları ile etiketler.
 
-/auth [ᴜsᴇʀɴᴀᴍᴇ] : ᴀᴅᴅ ᴀ ᴜsᴇʀ ᴛᴏ ᴀᴜᴛʜ ʟɪsᴛ ᴏғ ᴛʜᴇ ʙᴏᴛ.
-/unauth [ᴜsᴇʀɴᴀᴍᴇ] : ʀᴇᴍᴏᴠᴇ ᴀ ᴀᴜᴛʜ ᴜsᴇʀs ғʀᴏᴍ ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ.
-/authusers : sʜᴏᴡs ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴩ."""
+🏷️ /btag - Bayrak ile etiketler.
 
+🏷️ /sorutag - Sorularla etiketler.
 
-HELP_2 = """💞<u>**ᴩʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs:**</u>
+🏷️ /ktag - Karakter ile etiketler.
 
-ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs = play , vplay , cplay
+🏷️ /stag - Sözlerle etiketler.
 
-ғᴏʀᴄᴇᴩʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs = playforce , vplayforce , cplayforce
+🏷️ /stop - Etiket işlemini bitirir.
 
-**c** sᴛᴀɴᴅs ғᴏʀ ᴄʜᴀɴɴᴇʟ ᴩʟᴀʏ.
-**v** sᴛᴀɴᴅs ғᴏʀ ᴠɪᴅᴇᴏ ᴩʟᴀʏ.
-**force** sᴛᴀɴᴅs ғᴏʀ ғᴏʀᴄᴇ ᴩʟᴀʏ.
-
-/play ᴏʀ /vplay ᴏʀ /cplay  : sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.
-
-/playforce ᴏʀ /vplayforce ᴏʀ /cplayforce :  **ғᴏʀᴄᴇ ᴩʟᴀʏ** sᴛᴏᴩs ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ.
-
-/channelplay [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ] : ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴩ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋs ʙʏ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴄᴏᴍᴍᴀɴᴅs sᴇɴᴛ ɪɴ ɢʀᴏᴜᴩ.
+🏷️ /chatmode - sohbet özelliğini açar.
 
 
-🤨**<u>sᴇʀᴠᴇʀ ᴩʟᴀʏʟɪsᴛs:</u>**
-
-/playlist  : ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴩʟᴀʏʟɪsᴛ ᴏɴ sᴇʀᴠᴇʀs.
-/deleteplaylist : ᴅᴇʟᴇᴛᴇ ᴀɴʏ sᴀᴠᴇᴅ ᴛʀᴀᴄᴋ ɪɴ ʏᴏᴜʀ ᴩʟᴀʏʟɪsᴛ.
-/play  : sᴛᴀʀᴛs ᴩʟᴀʏɪɴɢ ғʀᴏᴍ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴩʟᴀʏʟɪsᴛ ᴏɴ sᴇʀᴠᴇʀ."""
 
 
-HELP_3 = """😉<u>**ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs:**</u>
+"""
 
-/stats : ɢᴇᴛ ᴛᴏᴩ 10 ᴛʀᴀᴄᴋ ɢʟᴏʙᴀʟ sᴛᴀᴛs, ᴛᴏᴩ 10 ᴜsᴇʀs ᴏғ ᴛʜᴇ ʙᴏᴛ, ᴛᴏᴩ 10 ᴄʜᴀᴛs ᴏɴ ᴛʜᴇ ʙᴏᴛ, ᴛᴏᴩ 10 ᴩʟᴀʏᴇᴅ ɪɴ ᴛʜᴇ ᴄʜᴀᴛ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ...
-/sudolist : sʜᴏᴡs ᴛʜᴇ sᴜᴅᴏ ᴜsᴇʀs ᴏғ ᴍᴜsɪᴄ ʙᴏᴛ.
-/lyrics [sᴏɴɢ ɴᴀᴍᴇ] : sᴇᴀʀᴄʜ ʟʏʀɪᴄs ғᴏʀ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ sᴏɴɢ.
-/song [sᴏɴɢ ɴᴀᴍᴇ] or [ʏᴛ ʟɪɴᴋ] : ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ʏᴏᴜᴛᴜʙᴇ ᴛʀᴀᴄᴋ ɪɴ ᴀᴜᴅɪᴏ ᴏʀ ᴠɪᴅᴇᴏ ғᴏʀᴍᴀᴛ.
-/player :  ɢᴇᴛ ᴀ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ᴩʟᴀʏᴇʀ ᴩᴀɴᴇʟ.
-/queue : sʜᴏᴡs ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ʟɪsᴛ."""
 
-HELP_4 = """😴<u>**ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅs:**</u>
+HELP_2 = """
+**🎰EĞLENCE KOMUTLARI**
 
-/start : sᴛᴀʀᴛs ᴛʜᴇ ᴍᴜsɪᴄ ʙᴏᴛ.
-/help  : ɢᴇᴛ ʜᴇʟᴩ ᴍᴇɴᴜ ᴡɪᴛʜ ᴇxᴩʟᴀɴᴀᴛɪᴏɴ ᴏғ ᴄᴏᴍᴍᴀɴᴅs.
-/ping: sʜᴏᴡ ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+❤️‍🔥  **/eros **| eros**  –  Eros oku atar.**
 
-🧐<u>**ɢʀᴏᴜᴩ sᴇᴛᴛɪɴɢs:**</u>
-/settings : sʜᴏᴡs ᴛʜᴇ ɢʀᴏᴜᴩ sᴇᴛᴛɪɴɢs ᴡɪᴛʜ ᴀɴ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪɴʟɪɴᴇ ᴍᴇɴᴜ."""
+📝  **/burc  –  Burçlarınızı yorumlarım.**
 
-HELP_5 = """🥺**<u>ᴀᴅᴅ & ʀᴇᴍᴏᴠᴇ sᴜᴅᴏᴇʀs:</u>**
-/addsudo [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ]
-/delsudo [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴄʜᴜᴛɪʏᴀ.]
+✨ **/mani  –  Mani söylerim.
 
-🥶**<u>ʜᴇʀᴏᴋᴜ:</u>**
-/usage : sʜᴏᴡs ᴛʜᴇ ᴅʏɴᴏ ᴜsᴀɢᴇ ᴏғ ᴛʜᴇ ᴍᴏɴᴛʜ.
+👋  **/slap  –  Birini tokatlayın.**
 
-🤯**<u>ᴄᴏɴғɪɢ ᴠᴀʀɪᴀʙʟᴇs:</u>**
-/get_var : ɢᴇᴛ ᴀ ᴄᴏɴғɪɢ ᴠᴀʀ ғʀᴏᴍ ʜᴇʀᴏᴋᴜ ᴏʀ .ᴇɴᴠ.
-/del_var : ᴅᴇʟᴇᴛᴇ ᴀ ᴄᴏɴғɪɢ ᴠᴀʀ ᴏɴ ʜᴇʀᴏᴋᴜ ᴏʀ .ᴇɴᴠ.
-/set_var [ᴠᴀʀ ɴᴀᴍᴇ] [ᴠᴀʟᴜᴇ] : sᴇᴛ ᴏʀ ᴜᴩᴅᴀᴛᴇ ᴀ ᴄᴏɴғɪɢ ᴠᴀʀ ᴏɴ ʜᴇʀᴏᴋᴜ ᴏʀ .ᴇɴᴠ.
+🎲  **/zar  –  Rastgele bir zar atın.**
 
-🤖**<u>ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs:</u>**
-/restart : ʀᴇsᴛᴀʀᴛs ʏᴏᴜʀ ʙᴏᴛ.
-/update : ᴜᴩᴅᴀᴛᴇs ᴛʜᴇ ʙᴏᴛ ғʀᴏᴍ ᴛʜᴇ ᴜᴩsᴛʀᴇᴀᴍ ʀᴇᴩᴏ.
-/speedtest : ᴄʜᴇᴄᴋ ʙᴏᴛ's sᴇʀᴠᴇʀ sᴩᴇᴇᴅ.
-/maintenance [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] 
-/logger [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] : ʙᴏᴛ ᴡɪʟʟ sᴛᴀʀᴛ ʟᴏɢɢɪɴɢ ᴛʜᴇ ᴀᴄᴛɪᴠɪᴛɪᴇs ʜᴀᴩᴩᴇɴ ᴏɴ ʙᴏᴛ.
-/get_log [ɴᴜᴍʙᴇʀ ᴏғ ʟɪɴᴇs] : ɢᴇᴛ ʟᴏɢs ᴏғ ʏᴏᴜʀ ʙᴏᴛ [ᴅᴇғᴀᴜʟᴛ ᴠᴀʟᴜᴇ ɪs 100 ʟɪɴᴇs]
-/autoend [ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ] : ᴇɴᴀʙʟᴇ sᴛʀᴇᴀᴍ ᴀᴜᴛᴏ ᴇɴᴅ ɪғ ɴᴏ ᴏɴᴇ ɪs ʟɪsᴛᴇɴɪɴɢ.
+🎯  **/dart  –  Dart atar.**
 
-🤑**<u>sᴛᴀᴛs ᴄᴏᴍᴍᴀɴᴅs:</u>**
-/activevoice : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇᴄʜᴀᴛs ᴏɴ ᴛʜᴇ ʙᴏᴛ.
-/activevideo : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs ᴏɴ ʙᴏᴛ.
-/stats : sʜᴏᴡs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+🎰  **/slot  –  Şans slot'u çevirir.**
 
-😒**<u>ʙʟᴀᴄᴋʟɪsᴛ ᴄʜᴀᴛ:</u>**
-/blacklistchat [ᴄʜᴀᴛ ɪᴅ] : ʙʟᴀᴄᴋʟɪsᴛ ᴀ ᴄʜᴀᴛ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
-/whitelistchat [ᴄʜᴀᴛ ɪᴅ] : ᴡʜɪᴛᴇʟɪsᴛ ᴛʜᴇ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛ.
-/blacklistedchat : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs.
+⚽️  **/futbol  –  Kaleye top atar.**
 
-😤**<u>ʙʟᴏᴄᴋ ᴜsᴇʀs:</u>**
-/block [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴄʜᴜᴛɪʏᴀ] : sᴛᴀʀᴛs ɪɢɴᴏʀɪɴɢ ᴛʜᴇ ᴄʜᴜᴛɪʏᴀ, sᴏ ᴛʜᴀᴛ ʜᴇ ᴄᴀɴ'ᴛ ᴜsᴇ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs.
-/unblock [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ᴜɴʙʟᴏᴄᴋs ᴛʜᴇ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀ.
-/blockedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs.
+🎳  **/bowling  –  Bowling atar.**
 
-🤬**<u>ɢʙᴀɴ ғᴇᴀᴛᴜʀᴇ:</u>**
-/gban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴄʜᴜᴛɪʏᴀ] : ɢʟᴏʙᴀʟʟʏ ʙᴀɴs ᴛʜᴇ ᴄʜᴜᴛɪʏᴀ ғʀᴏᴍ ᴀʟʟ ᴛʜᴇ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴀɴᴅ ʙʟᴀᴄᴋʟɪsᴛ ʜɪᴍ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
-/ungban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ɢʟᴏʙᴀʟʟʏ ᴜɴʙᴀɴs ᴛʜᴇ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ᴜsᴇʀ.
-/gbannedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇʀ ᴜsᴇʀs.
+🪙  **/para  –  Rastgele bir para atın.**
 
-🎥**<u>ᴠɪᴅᴇᴏᴄʜᴀᴛ ᴍᴏᴅᴇ:</u>**
-/set_video_limit [ɴᴜᴍʙᴇʀ ᴏғ ᴄʜᴀᴛs] : sᴇᴛ ᴛʜᴇ ᴍᴀxɪᴍᴜᴍ ɴᴜᴍʙᴇʀ ᴏғ ᴠɪᴅᴇᴏᴄʜᴀᴛs ᴀʟʟᴏᴡᴇᴅ ᴏɴ ʙᴏᴛ. [ᴅᴇᴀғᴜʟᴛ - 3]
-/videomode [ᴅᴏᴡɴʟᴏᴀᴅ|ᴍ3ᴜ8] : ɪғ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴇ ɪs ᴇɴᴀʙʟᴇᴅ ʙᴏᴛ ᴡɪʟʟ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ᴛʀᴀᴄᴋs ɪɴsᴛᴇᴀᴅ ᴏғ ᴩʟᴀʏɪɴɢ ᴛʜᴇᴍ ɪɴ ᴍ3ᴜ8.
+👋  **/slap  –  Birini tokatlayın.**
 
-💔**<u>ᴩʀɪᴠᴀᴛᴇ ʙᴏᴛ:</u>**
-/authorize [ᴄʜᴀᴛ ɪᴅ] : ᴀʟʟᴏᴡs ᴀ ᴄʜᴀᴛ ғᴏʀ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
-/unauthorize [ᴄʜᴀᴛ ɪᴅ] : ᴅɪsᴀʟʟᴏᴡs ᴛʜᴇ ᴀʟʟᴏᴡᴇᴅ ᴄʜᴀᴛ.
-/authorized : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀʟʟᴏᴡᴇᴅ ᴄʜᴀᴛs.
+🤣  **/saka  –  Rastgele bir şaka gönderin.**
 
-🍒**<u>ʙʀᴏᴀᴅᴄᴀsᴛ ғᴇᴀᴛᴜʀᴇ:</u>**
-/broadcast [ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ] : ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+📜  **/soz  –  Rastgele bir söz gönderin.** 
 
-<u>ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ ᴍᴏᴅᴇs:</u>
-**-pin** : ᴩɪɴs ʏᴏᴜʀ ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇs ɪɴ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs.
-**-pinloud** : ᴩɪɴs ʏᴏᴜʀ ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ɪɴ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴀɴᴅ sᴇɴᴅ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ ᴛᴏ ᴛʜᴇ ᴍᴇᴍʙᴇʀs.
-**-user** : ʙʀᴏᴀᴅᴄᴀsᴛs ᴛʜᴇ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜᴇ ᴜsᴇʀs ᴡʜᴏ ʜᴀᴠᴇ sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ.
-**-assistant** : ʙʀᴏᴀᴅᴄᴀsᴛ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ғʀᴏᴍ ᴛʜᴇ ᴀssɪᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴏғ ᴛʜᴇ ʙᴏᴛ.
-**-nobot** : ғᴏʀᴄᴇs ᴛʜᴇ ʙᴏᴛ ᴛᴏ ɴᴏᴛ ʙʀᴏᴀᴅᴄᴀsᴛ ᴛʜᴇ ᴍᴇssᴀɢᴇ..
+📢  **/tts  –  Bir metni sese çevirir.**
 
-**ᴇxᴀᴍᴩʟᴇ:** `/broadcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ`"""
+"""
 
-HELP_7 = """💌**<u>ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ɴᴇᴡ ғᴇᴀᴛᴜʀᴇs:</u>**
 
-/alive : ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ᴀʟᴇxᴀ ᴍᴜsɪᴄ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ
-/id : ᴛᴏ ᴄʜᴇᴋ ᴜsᴇʀ ᴀɴᴅ ᴄʜᴀᴛ ɪᴅ
-/gcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ`
-/verify : ᴠᴇʀɪꜰʏ ʏᴏᴜʀsᴇʟꜰ ᴀᴛ ᴀʟᴇxᴀ ᴅᴀᴛᴀʙᴀsᴇ"""
+HELP_3 = """
+**ADMİN KOMUTLARI:**
 
-HELP_8 = """💰**<u>ꜰᴇᴀᴛᴜʀᴇ ꜰᴏʀ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ:</u>**
+**/c** komutlarını kanalda kullanabilmek için, komutların başına **c** ekleyin.
 
-ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴍᴏɴᴛʜʟʏ ᴀɴᴅ ᴡᴇᴇᴋʟʏ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ꜰʀᴏᴍ ᴜs. ᴡᴇ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ 3 ʙʀᴏᴀᴅᴄᴀsᴛ ꜰᴏʀ ᴡᴇᴇᴋʟʏ ᴀɴᴅ 14 ʙʀᴏᴀᴅᴄᴀsᴛ ꜰᴏʀ ᴍᴏɴᴛʜʟʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ sᴇɴᴅɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀꜰᴛᴇʀ ᴛᴡᴏ ᴅᴀʏs.
+**/pause veya /dur**: Çalan akışı duraklatır.
+**/resume veya /devam**: Duraklatılmış akışı devam ettirir.
+**/skip veya /atla **: Çalan akışı atlar ve sıradaki parçayı çalmaya başlar.
+**/kapat** veya **/son**: Sıradaki parçayı atlar ve çalan akışı sonlandırır.
+**/player**: Etkileşimli bir oynatıcı paneli alır.
+**/queue veya /liste**: Sıradaki parçaların listesini gösterir.
+"""
+HELP_4 = """
+**YETKİLİ KULLANICILAR:**
 
-**ᴏɴʟʏ ᴏᴡɴᴇʀ**
-/addweekly [ᴜsᴇʀ ɪᴅ] : ᴀᴅᴅ ᴜsᴇʀ ᴛᴏ ᴡᴇᴇᴋʟʏ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ.
-/addmonthly [ᴜsᴇʀ ɪᴅ] : ᴀᴅᴅ ᴜsᴇʀ ᴛᴏ ᴍᴏɴᴛʜʟʏ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ.  
-/removesub [ᴜsᴇʀ ɪᴅ] : ʀᴇᴍᴏᴠᴇ ᴜsᴇʀ ꜰʀᴏᴍ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ.
-/checksubscription [ᴜsᴇʀ ɪᴅ] : ᴄʜᴇᴋ ᴜsᴇʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ʀᴇᴍᴀɪɴɪɴɢ ᴅᴀʏs ᴀɴᴅ ʙʀᴏᴀᴅᴄᴀsᴛ.
-/substats : ᴄʜᴇᴄᴋ ᴛᴏᴛᴀʟ ɴᴜᴍʙᴇʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴡɪᴛʜ ᴛʜᴇɪʀ ɪᴅs ᴀɴᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴛʏᴘᴇ ᴀʟᴏɴɢ ᴡɪᴛʜ ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴜᴛ.
-/subscription_alert : ᴛᴏ sᴇɴᴅ ᴀʟᴇʀᴛ ᴍᴇssᴀɢᴇ ᴛᴏ sᴜʙsᴄʀɪʙᴇʀ ᴡɪᴛʜ ʀᴇᴍᴀɪɴɪɴɢ ᴅᴀʏs  ᴀʟᴏɴɢ ᴡɪᴛʜ ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴜᴛ.
+**/auth veya /ver  [kullanıcı adı/kullanıcı_ID]**: Bir kullanıcıyı botun yetkili listesine ekler.
+**/unauth veya /al [kullanıcı adı/kullanıcı_ID]**: Bir kullanıcıyı yetkili kullanıcılar listesinden çıkarır.
+**/authusers veya /yetkili**: Yetkili kullanıcıların listesini gösterir.
+"""
+HELP_5 = """
+**BAKIM MODU:** [Sadece süper yöneticiler için]
 
-**ᴀɴʏᴏɴᴇ ᴄᴀɴ ᴜsᴇ**
-/mysubscription : ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴋ ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴡɪᴛʜ ʀᴇᴍᴀɪɴɪɴɢ ᴅᴀʏs ᴀɴᴅ ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴜɴᴛ.
-/paidbroadcast : sᴇɴᴅ ʙʀᴏᴀᴅᴄᴀsᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀ ᴀɴᴅ ɢʀᴏᴜᴘs ᴀᴛ ᴀ ᴛɪᴍᴇ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀ ᴀᴄᴛɪᴠᴇ sᴜʙsᴄʀɪᴘᴛɪᴏɴ."""
+/logs : Botun aktivitelerinin günlüklerini alır. 📔
+
+/logger [enable/disable] : Botun aktivitelerini günlüklemeye başlar/devre dışı bırakır.📝
+
+/bakım [enable/disable] : Botun bakım modunu etkinleştirir/devre dışı bırakır. ⚙️
+
+**SUDO KULLANICISI EKLE**
+
+/addsudo : Kullanıcı ekler.
+/delsudo : Kullanıcı siler.
+/sudolist : Kullanıcı listesi
+
+**AKTIF SES KONTROL**
+
+/aktifses : Aktif ses kontrol
+/aktifvideo : Aktif video kontrol
+
+
+"""
+HELP_6 = """
+**CHAT BLACKLIST ÖZELLİĞİ:** [Sadece süper yöneticiler için]
+
+Çöp sohbetlerinizi botumuzda kullanmayı kısıtlayın.
+
+/blacklistchat [sohbet ID] : Bir sohbeti bot kullanımından engeller.
+/whitelistchat [sohbet ID] : Kara listeye alınmış sohbeti beyaz listeye alır.
+/blacklistedchat : Kara listeye alınmış sohbetlerin listesini gösterir.
+"""
+HELP_7 = """
+**KULLANICI ENGELLEME:**
+
+Kara listeye alınmış kullanıcıları görmezden gelmeye başlar, böylece bot komutlarını kullanamazlar.
+
+/block [kullanıcı adı veya kullanıcıya yanıt] : Kullanıcıyı botumuzdan engeller.
+/unblock [kullanıcı adı veya kullanıcıya yanıt] : Engellenmiş kullanıcının engelini kaldırır.
+/blockedusers : Engellenmiş kullanıcıların listesini gösterir.
+"""
+HELP_8 = """
+**KANAL OYNATMA KOMUTLARI:**
+
+Kanallarda ses/video yayını yapabilirsiniz.
+
+/cplay : Kanalın video sohbetinde istenilen ses parçasının yayınını başlatır.
+/cvoynat : Kanalın video sohbetinde istenilen video parçasının yayınını başlatır.
+/cplayforce veya /cvplayforce : Devam eden yayını durdurur ve istenilen parçanın yayınını başlatır.
+/channelplay [sohbet kullanıcı adı veya ID] veya [devre dışı] : Kanalı bir gruba bağlar ve grup tarafından gönderilen komutlarla parçaların yayınını başlatır.
+"""
+
+HELP_9 = """
+**GLOBAL BAN ÖZELLİĞİ:** [Sadece süper yöneticiler için]
+
+/gban [kullanıcı adı veya kullanıcıya yanıt] : Tüüm sunucu sohbetlerinden kullanıcıyı global olarak engeller ve bot kullanımını ondan engeller.
+/ungban [kullanıcı adı veya kullanıcıya yanıt] : Global olarak yasaklanan kullanıcının yasağını kaldırır.
+/gbannedusers : Global olarak yasaklanan kullanıcıların listesini gösterir.
+"""
+HELP_10 = """
+**LOOP STREAM:**
+
+Ongoing yayını döngüde başlatır.
+
+/dongu [enable/disable] : Ongoing yayın için döngüyü etkinleştirir/devre dışı bırakır.
+/dongu [1, 2, 3, ...] : Verilen değer için döngüyü etkinleştirir.
+"""
+HELP_11 = """
+**YAYIN YAPMA ÖZELLİĞİ**
+
+**/broadcast [mesaj veya bir mesaja yanıt]**: Bir mesajı sunucu sohbetlerine yayınlar.
+
+Yayın modları:
+**-pin**: Yayınlanan mesajları sunucu sohbetlerinde sabitler.
+**-pinloud**: Yayınlanan mesajları sunucu sohbetlerinde sabitler ve üyelere bildirim gönderir.
+**-user**: Mesajı botunuza başlatan kullanıcılara yayınlar.
+**-assistant**: Botunuzun asistan hesabından mesajı yayınlar.
+**-nobot**: Mesajın yayınlanmasını engeller.
+
+Örnek: /broadcast -user -assistant -pin Test yayını
+"""
+HELP_12 = """
+**PING & STATS:**
+
+/ping : Botun ping ve sistem istatistiklerini gösterir.
+
+/stats : Botun genel istatistiklerini gösterir.
+"""
+HELP_13 = """
+**PLAY COMMANDS:**
+
+**v :** Video play için kullanılır.
+**force :** Zorla oynatma için kullanılır.
+
+/play , /voynat veya /oynat veya /voynat : Video sohbetinde istenilen parçayı çalmaya başlar.
+
+/playforce veya /voynatforce : Devam eden yayını durdurur ve istenilen parçayı çalmaya başlar.
+
+/playlist : Oynatma listenizi gösterir.
+/listemisil : Oynatma listenizi siler.
+"""
+HELP_14 = """
+**SHUFFLE QUEUE:**
+
+/karistir : Sıradaki parçaları karıştırır.
+/queue : Karıştırılmış sırayı gösterir.
+"""
+
+HELP_15 = """
+**SEEK STREAM:**
+
+/ilerisar [saniye cinsinden süre] : Yayını belirtilen süreye atlar.
+/gerisar [saniye cinsinden süre] : Yayını belirtilen süre kadar geri alır.
+"""
+HELP_16 = """
+**SONG DOWNLOAD:**
+
+/song veya /bul [şarkı adı/YouTube URL] : YouTube'dan herhangi bir parçayı MP3 veya MP4 formatında indirir.
+"""
+HELP_17 = """
+**SPEED COMMANDS:**
+
+Ongoing stream'un çalma hızını kontrol edebilirsiniz. [Yalnızca yöneticiler]
+
+/speed veya /playback : Grubun ses çalma hızını ayarlamak için.
+/cspeed veya /cplayback : Kanalın ses çalma hızını ayarlamak için.
+"""
