@@ -45,7 +45,7 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/zerosugar6464/Musicb
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN",  "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")
+GIT_TOKEN = getenv("GIT_TOKEN",  "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")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Alexa_BotUpdates")
 
