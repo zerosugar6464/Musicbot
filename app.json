@@ -52,6 +52,11 @@
         "value": "",
         "required": true
       },
+   "STRING2_SESSION": {
+        "description": "A Pyrogram Session Get It From  Here @Session_Generator_Robot.",
+        "value": "",
+        "required": true
+      },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
         "value": "",
