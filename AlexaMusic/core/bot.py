@@ -39,7 +39,7 @@ class AlexaBot(Client):
         self.mention = get_me.mention
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "» asistan aktif ✅ ."
+                config.LOG_GROUP_ID, "» bot aktif ✅ \n\n asistan kontrol ediliyor...."
             )
         except:
             LOGGER(__name__).error(
