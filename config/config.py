@@ -18,12 +18,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "20824282"))
-API_HASH = getenv("API_HASH", "5c49d99b5bb9e41c9b8ada4f826989ef")
+API_ID = int(getenv("API_ID", None))
+API_HASH = getenv("API_HASH", None)
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7336757348:AAEcBMf1G7Xo6j6DzhzhIPyIJoZ4YaBc1jc")
+BOT_TOKEN = getenv("BOT_TOKEN", None)
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kurt67143:DLArCT171SF9wRKJ@alexsoza.xpoqv.mongodb.net/?retryWrites=true&w=majority&appName=Alexsoza")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
@@ -33,7 +33,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002589495344"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "sila muzik")
 
-OWNER_ID = int(getenv("OWNER_ID", "7989065012"))
+OWNER_ID = int(getenv("OWNER_ID", None))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
@@ -45,7 +45,7 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/zerosugar6464/Musicb
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN",  "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")
+GIT_TOKEN = getenv("GIT_TOKEN",  None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Alexa_BotUpdates")
 
@@ -89,7 +89,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 COOKIES = getenv("COOKIES", None)
 # https://batbin.me
 
-STRING1 = getenv("STRING_SESSION", "BAFStUgAtAuwD89RHH6gAOgA-UZV9fxl0fehlSKpJyCmW2NKyS7a25DkBqUfDFWQm7TPHJtR6-qQWizTWWYBDsNF0y6yQL0njNmudSOgxfI9lcwoil36J2_MlK5qqpi9jjH7_kC9tX_yPcjPMioNn7V_ELo8_XYwHjvjaMqto2HHl3cRhyy_22q5tSWNh_6bm4R72O5Suiy2Oo0T-Cyk6b7H6qJe56SHTu1MvsHP0gMzM9HKUlsgKtkQg6GCGsgM_3feFpciQJVUvm6jqV_ApyGDBP4_RvXHT9T7K-4LWsS7W7tcD4FPNHmfaX8p9Ftu1IG57SWcLjogVhbHf1mimL00bn54VAAAAAHjA7GmAA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -108,7 +108,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/d593c6064ff7657d0c714.jpg"
+    "START_IMG_URL", "https://resmim.net/cdn/2025/05/03/NLGzg3.jpg"
 )
 
 PING_IMG_URL = getenv(
