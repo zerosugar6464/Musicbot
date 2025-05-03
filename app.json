@@ -60,12 +60,12 @@
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
         "value": "",
-        "required": true
+        "required": False
       },
       "HEROKU_APP_NAME": {
         "description": "Your heroku app name",
         "value": "",
-        "required": true
+        "required": False
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
@@ -80,7 +80,7 @@
       "COOKIES": {
         "description": "Paste your batbin link.",
         "value": "https://batbin.me/raw/",
-        "required": true
+        "required": False
       }
     },
     "buildpacks": [
