@@ -53,16 +53,16 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton("▶️ Devam", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton("⏸️ Duraklat", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton("▶️ ᴅᴇᴠᴀᴍ", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton("⏸️ ᴅᴜʀᴅᴜʀ", callback_data=f"ADMIN Pause|{chat_id}"),
         ],
         [
-            InlineKeyboardButton("⏭️ Atla", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton("⏹️ Durdur", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton("⏭️ ᴀᴛʟᴀ", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton("⏹️ ᴋᴀᴘᴀᴛ", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton("➕ Listeye Ekle", callback_data=f"add_playlist {videoid}"),
-            InlineKeyboardButton("⚙️ Panel", callback_data=f"PanelMarkup {videoid}|{chat_id}"),
+            InlineKeyboardButton("✅ ʟɪsᴛᴇᴍᴇ ᴇᴋʟᴇ ", callback_data=f"add_playlist {videoid}"),
+            InlineKeyboardButton("⚙️ ᴄ-ᴘᴀɴᴇʟ", callback_data=f"PanelMarkup {videoid}|{chat_id}"),
         ],
     ]
     return buttons
