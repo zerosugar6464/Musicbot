@@ -262,8 +262,7 @@ S_B_8 : "🏩 yardım Komutlar 🏩"
 H_B_1 : "💎Admin"
 H_B_2 : "🎧Oynat"
 H_B_3 : "🤖Extra"
-H_B_4 : "🎭Eğlence komutları"
-H_B_7 : "🏷️Etiket komutları"
+
 #PlayMode
 PM_B_1 : "DirectPlay"
 PM_B_2 : "InlineMarkup"
