@@ -38,25 +38,32 @@ selections = [
 ## After Edits with Timer Bar
 
 
+from pyrogram.types import InlineKeyboardButton
+
 def stream_markup_timer(_, videoid, chat_id, played, dur):
-    bar = random.choice(selections)
+    import random
+    bars = ["▁▂▃▄▅▆▇█", "█▇▆▅▄▃▂▁", "▉▊▋▌▍▎▏▏"]  # Farklı animasyon barları
+    bar = random.choice(bars)
+
     buttons = [
         [
-              InlineKeyboardButton(
-                text=_["P_B_7"], callback_data=f"add_playlist {videoid}"
-            ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
-            ),
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer"
+            )
         ],
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton("▶️ Devam", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton("⏸️ Duraklat", callback_data=f"ADMIN Pause|{chat_id}"),
         ],
-        [InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close")],
+        [
+            InlineKeyboardButton("⏭️ Atla", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton("⏹️ Durdur", callback_data=f"ADMIN Stop|{chat_id}"),
+        ],
+        [
+            InlineKeyboardButton("➕ Listeye Ekle", callback_data=f"add_playlist {videoid}"),
+            InlineKeyboardButton("⚙️ Panel", callback_data=f"PanelMarkup {videoid}|{chat_id}"),
+        ],
     ]
     return buttons
 
